@@ -82,7 +82,7 @@ mv RTT /usr/local/bin/rtt
 CHS=3
 IRIP=$(dig -4 +short myip.opendns.com @resolver1.opendns.com)
 EXIP=0.0.0.0
-IRPORT=23-65535
+IRPORT=23-65530
 IRPORTTT=443
 TOIP=127.0.0.1
 TOPORT=multiport
