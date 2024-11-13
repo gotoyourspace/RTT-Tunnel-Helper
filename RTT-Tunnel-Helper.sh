@@ -138,7 +138,7 @@ case $CHS in
     1)  echo "Be carefull SSH port must under 23"
     echo "Multiport is activated all ports above 22 were forwarded"
     read -r -p "RTT PASS(Default is: zzazza@@@zzazza): " TOPASS
-    TOPASS=${TOPASS:-"zzazza@@@zzazza"}
+    TOPASS=${TOPASS:-"Mohammadalisharghi"}
     read -r -p "RTT SNI(Default is: parsianhospital.com): " SNI
     SNI=${SNI:-"parsianhospital.com"}
     read -r -p "RTT Restart Time(Default is: 24): " TERM
